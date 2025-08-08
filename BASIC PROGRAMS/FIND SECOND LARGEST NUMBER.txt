@@ -1,0 +1,7 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,c;cin>>a>>b>>c;
+    int sec=a>b?(a<c?a:(b<c?b:c)):(b<c?c:(a>c?a:c));
+    cout<<"Second Largest: "<<sec;
+}
